@@ -4,18 +4,7 @@ from csv import reader
 
 asin_list = []
 
-with open('asin_list.csv', 'r') as f:
-    csv_reader = reader(f)
-    for row in csv_reader:
-        asin_list.append(row[0])
-
 reviews_url = 'https://www.sosnc.gov/online_services/Search/Business_Registration_profile?Id={}'
-
-# asin_list = [
-#     '9735305',
-#     '4702686'
-#              ]
-
 
 def cleanup(input_string):
     if input_string:
