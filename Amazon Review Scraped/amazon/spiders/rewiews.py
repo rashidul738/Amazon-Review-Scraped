@@ -1,10 +1,9 @@
 import scrapy
 import re
-from csv import reader
-
-asin_list = []
 
 reviews_url = 'https://www.sosnc.gov/online_services/Search/Business_Registration_profile?Id={}'
+
+asin_list = []
 
 def cleanup(input_string):
     if input_string:
