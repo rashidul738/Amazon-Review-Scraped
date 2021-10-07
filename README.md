@@ -1,3 +1,2 @@
-# Amazon-Review-Scraped
-Amazon Review Scraped For My Clients
-Amazon Review Scraped For My Clients
+Scraped Amazon Review from client provided asin_list
+
